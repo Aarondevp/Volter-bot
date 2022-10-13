@@ -1,0 +1,23 @@
+{
+  "name": "volter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "Toxicity",
+  "license": "ISC",
+  "engines" : { 
+    "npm" : ">=8.0.0 <9.0.0",
+    "node" : ">=16.0.0 <17.0.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.2.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.11",
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3"
+  }
+}
